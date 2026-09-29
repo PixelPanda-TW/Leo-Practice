@@ -1,0 +1,33 @@
+body {
+  font-family: system-ui, sans-serif;
+  max-width: 720px;
+  margin: auto;
+  padding: 24px;
+  background: #f6f7fb;
+  color: #20242a
+}
+
+.row {
+  display: flex;
+  gap: 8px
+}
+
+input {
+  flex: 1;
+  padding: 12px;
+  font-size: 16px
+}
+
+button {
+  padding: 12px 18px
+}
+
+li {
+  margin-top: 12px;
+  padding: 14px;
+  background: white;
+  border-radius: 12px
+}
+
+
+/* TODO: Leo，設計 completed class，讓完成的事情看起來不一樣 */

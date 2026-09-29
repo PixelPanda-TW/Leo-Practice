@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width,initial-scale=1" name="viewport" />
+    <title>
+        Guess the Number
+    </title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <main>
+        <p>
+            MISSION 03
+        </p>
+        <h1>
+            猜數字
+        </h1>
+        <p>
+            我想了一個 1～100 的數字。
+        </p>
+        <form id="game">
+            <label for="guess">
+                你的答案
+            </label>
+            <input id="guess" max="100" min="1" type="number" />
+            <button>
+                猜！
+            </button>
+        </form>
+        <p id="message">
+            開始猜吧。
+        </p>
+        <p>
+            猜測次數：
+            <strong id="attempts">
+                0
+            </strong>
+        </p>
+        <button id="restart" type="button">
+            重新開始
+        </button>
+    </main>
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
